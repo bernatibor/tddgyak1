@@ -1,0 +1,20 @@
+{
+  "name": "tdd/homework1",
+  "description": "first tdd homework",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Tibi",
+      "email": "tibor.berna@innonic.com"
+    }
+  ],
+  "require": {
+    "phpunit/phpunit": "^4.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "": "src/"
+    }
+  }
+}
